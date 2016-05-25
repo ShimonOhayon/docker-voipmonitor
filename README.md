@@ -17,7 +17,8 @@ see https://www.voipmonitor.org/doc/Sniffer_installation
 - Enable and set "id_sensor" unique
 - Set correct "interface"
 - Set "managerip" so that the voipmonitor server can reach the sniffer
-- Set database details "mysqlhost", "mysqlport" etc. so that the sniffer can inject data into the database 
+- Set database details "mysqlhost", "mysqlport" etc. so that the sniffer can inject data into the database
+
 #### configure the voipmonitor server via GUI
 - Settings -> Sensors
   - New record
@@ -26,5 +27,6 @@ see https://www.voipmonitor.org/doc/Sniffer_installation
   - "Managerip" => sniffer ip
 - Settings -> Systemconfiguration
   - update "default sensor hostname" => choose the ip of your sniffer
+
 #### Additional informations
 see https://www.voipmonitor.org/doc/Settings
