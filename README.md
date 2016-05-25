@@ -2,10 +2,12 @@
 
 ## Startup
 
+```
 docker run --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:5.6
 docker run --name voipmonitor -d --link mysql:mysql -p 80:80 -p 5029:5029 voipmonitor:0.1.0
+```
 
-After that open the voipmonitor GUI n your browser and folow the instructions
+After that open the voipmonitor GUI in your browser and follow the instructions
 
 ## Sniffer
 ### Install
